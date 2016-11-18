@@ -1,0 +1,365 @@
+EnvHash:
+2e62b841ee8266b73523cec540a7bff0
+EnvVars:
+ASM_ARCH_CMD_LINE
+CDEBUG_DEFINES
+CDECLDECORATION
+CODEPAGE
+CODE_ANALYSIS_CMD_LINE
+C_ARCH_CMD_LINE
+C_DEBUG_INFO_FLAG
+ERRORFORBANNEDAPIS_CMD_LINE
+EXCEPTION_CPP_CMD_LINE
+EXCEPTION_EXTERN_C_CMD_LINE
+EXEENTRY
+HEADEROBJNAME
+LDEFSTACK
+LIBRARIAN_FLAGS
+LOCALE
+MACHINEOPTION
+MANAGED_CSC_DIR_CE
+OBJECTS
+OPTIMIZE_FAVOR_FLAG
+PASS0_SOURCEDIR
+PRECOMPILED_CPP_ONLY_CMD_LINE
+PRECOMPILED_C_ONLY_CMD_LINE
+PRECOMPILED_HEADEROBJNAME
+ProgramFiles
+RTTI_CMD_LINE
+SG_OUTPUT_ROOT
+SOURCES
+TARGETNAME
+WARNLEVEL_CMD_LINE
+WINCEDEBUG
+_PLATFORMROOT
+_PUBLICROOT
+_TARGETPLATROOT
+_TGTCPU
+_TGTCPUDEFINES
+_TGTCPUFAMILY
+_TGTCPUISA
+_TGTPLAT
+_WINCEROOT
+Includes:
+C:\WINCE700\public\common\oak\misc\makefile.def
+C:\WINCE700\public\common\oak\misc\Sources.default
+C:\WINCE700\platform\raspi\sources.cmn
+C:\WINCE700\platform\raspi\SRC\BOOTLOADER\sboot\sources
+C:\WINCE700\public\common\oak\misc\Sources.framework.default
+C:\WINCE700\public\common\oak\misc\Sources.CE
+C:\WINCE700\public\common\oak\misc\sources.ReleaseType_PLATFORM
+Macros:
+ACF_SOURCES = main.c debug.c startup.s
+ACPATH = C:\Program Files (x86)\Lenovo\Access Connections\
+ADEFINES = -pd "Thumbing SETL {FALSE}" -pd "Interworking SETL {TRUE}" -pd "DEBUG SETA 1" 
+AFLAGS =  -cr -i .,C:\WINCE700\platform\raspi2\src\inc -i arm -pd "Thumbing SETL {FALSE}" -pd "Interworking SETL {TRUE}" -pd "DEBUG SETA 1" -arch 6
+ALCKPATH = C:\Program Files\Lenovo\AutoLock
+ALLOW_BITFIELD_NON_INT = 1
+ALLOW_GTR_64KB_SOURCE = 1
+ALLOW_MISMATCHED_TYPES = 
+ALLOW_NAMELESS_STRUCT = 1
+ALLOW_TYPEDEF_IN_PARENS = 1
+ALLOW_UNREFERENCED_LOCAL_FUNCTION = 1
+ALLOW_UNREF_FORMAL_PARAMS = 1
+ALLUSERSPROFILE = C:\ProgramData
+APPDATA = C:\Users\Doug\AppData\Roaming
+AS = ml
+ASM_ARCH_CMD_LINE = -arch 6
+ASSEMBLER = armasm -nologo
+ASSEMBLER_CMD_LINE =  -cr -i .,C:\WINCE700\platform\raspi2\src\inc -i arm -pd "Thumbing SETL {FALSE}" -pd "Interworking SETL {TRUE}" -pd "DEBUG SETA 1" -arch 6
+ATL_LIBS = C:\WINCE700\others\atl9\lib\ARMV6\atls.lib C:\WINCE700\others\atl9\lib\ARMV6\atlosapis.lib C:\WINCE700\others\cecrt\lib\ARMV6\altcecrt.lib
+ATL_LIBSD = C:\WINCE700\others\atl9\lib\ARMV6\atlsd.lib C:\WINCE700\others\atl9\lib\ARMV6\atlosapis.lib C:\WINCE700\others\cecrt\lib\ARMV6\altcecrtd.lib
+BAD_POINTER_TO_MEMBER_SYNTAX = 1
+BROKEN_PCH = 1
+BSP_AUDIO_AC97 = 
+BSP_BLUETOOTH_BUILTIN_UART = 
+BSP_DEBUGPORT = 
+BSP_IROMBOOT = 
+BSP_NOD3DM = 
+BSP_NOHSMMC_CH0 = 
+BSP_NOIRDA2 = 
+BSP_NOIRDA3 = 
+BSP_NOKEYPAD = 
+BSP_NOOES = 
+BSP_NOUART0 = 
+BSP_NOUART2 = 
+BSP_NOUART3 = 
+BSP_USBFNCLASS = 
+BUILDMSG = 
+BUILDROOT = C:\WINCE700\platform\raspi2
+BUILD_DEFAULT = -nmake -nologo
+BUILD_MULTIPROCESSOR = 0
+CBUG_FLAGS =  -Zc:wchar_t- -Zc:forScope- -wd4867 -wd4430 -wd4603 -wd4627 -wd4100 -wd4201 -wd4115 -wd4214 -wd4049 -wd4505 -MT -U_MT
+CC = cl
+CCOMPILER = cl -nologo 
+CDEBUG_FLAGS = -Ox -Os -GF -Zi -Fdobj\ARMV6\checked\SBOOT.pdb
+CDECLDECORATION = 
+CDEFINES = -DTHUMBSUPPORT -D_CRT_SECURE_NO_DEPRECATE -D_USE_32BIT_TIME_T -DUNICODE -D_UNICODE -DUNDER_CE=700 -D_WIN32_WCE=0x700 -DWIN32 -DSTRICT -DARM -DARMV6 -D_ARM_ -D_MIDL_USE_GUIDDEF_ -DDEBUG=1 -DCOREDLL -DBUILDING_BOOTLOADER -DINTERNATIONAL -DINTLMSG_CODEPAGE=1252
+CEBASE = 1
+CFLAGS = -QRimplicit-import- -c -I. -IC:\WINCE700\platform\raspi2\src\inc -I.\Resource\0409 -Ox -Os -GF -Zi -Fdobj\ARMV6\checked\SBOOT.pdb -DTHUMBSUPPORT -D_CRT_SECURE_NO_DEPRECATE -D_USE_32BIT_TIME_T -DUNICODE -D_UNICODE -DUNDER_CE=700 -D_WIN32_WCE=0x700 -DWIN32 -DSTRICT -DARM -DARMV6 -D_ARM_ -D_MIDL_USE_GUIDDEF_ -DDEBUG=1 -DCOREDLL -DBUILDING_BOOTLOADER -DINTERNATIONAL -DINTLMSG_CODEPAGE=1252 -QRarch6 -QRfpe- -QRinterwork-return -Zi
+CINCLUDES = -I. -IC:\WINCE700\platform\raspi2\src\inc -I.\Resource\0409
+CLASSPATH = .;C:\Program Files (x86)\QuickTime\QTSystem\QTJava.zip
+CODEPAGE = 1252
+CODE_ANALYSIS_CMD_LINE = 
+COMMONPROGRAMFILES = C:\Program Files (x86)\Common Files
+COMMONPROGRAMW6432 = C:\Program Files\Common Files
+COMMPATH = C:\Program Files\Lenovo\Communications Utility
+COMPACT_FRAMEWORK_BASE_DIR = C:\WINCE700\others\dotnetv35
+COMPUTERNAME = THINKPAD420S
+COMSPEC = C:\Windows\system32\cmd.exe
+CONFIGSETROOT = C:\Windows\ConfigSetRoot
+CONFORMING_FORSCOPE = 
+COPYCMD = /y
+CPP = cl
+CSC = \csc.exe
+CSC_DEBUG_CMD_LINE = /debug+ /debug:full
+CSC_DEBUG_DEFINE_CMD_LINE = /define:DEBUG
+CVTRES = cvtres -machine:thumb /WINDOWSCE
+CXX = cl
+CXXCOMPILER = cl -nologo 
+C_ARCH_CMD_LINE = -QRarch6 -QRfpe- -QRinterwork-return
+C_COMMAND_LINE_OPTIONS = -QRimplicit-import- -c -I. -IC:\WINCE700\platform\raspi2\src\inc -I.\Resource\0409 -Ox -Os -GF -Zi -Fdobj\ARMV6\checked\SBOOT.pdb -DTHUMBSUPPORT -D_CRT_SECURE_NO_DEPRECATE -D_USE_32BIT_TIME_T -DUNICODE -D_UNICODE -DUNDER_CE=700 -D_WIN32_WCE=0x700 -DWIN32 -DSTRICT -DARM -DARMV6 -D_ARM_ -D_MIDL_USE_GUIDDEF_ -DDEBUG=1 -DCOREDLL -DBUILDING_BOOTLOADER -DINTERNATIONAL -DINTLMSG_CODEPAGE=1252 -QRarch6 -QRfpe- -QRinterwork-return -Zi -Zc:wchar_t- -Zc:forScope- -wd4867 -wd4430 -wd4603 -wd4627 -wd4100 -wd4201 -wd4115 -wd4214 -wd4049 -wd4505 -MT -U_MT /FC -W3 /GR-
+C_DEBUG_INFO_FLAG = -Zi
+DEBUG_LINK_CMD_LINE = -debug -incremental:no
+DEFAULT_LOCALE = en-US
+DEFAULT_URT = 3.5
+DEFFILE = SBOOT.def
+DEFFILEFLAG = -def:SBOOT.def
+DEPRECATE_BANNED_CRT = 
+DEPRECATE_UNSAFE_CRT = 
+DEP_COMPATIBLE = 1
+DLLBASE = 0x10000000
+DLLENTRYOPTION = -include:DllMain -entry:_DllMainCRTStartup
+DLL_EXT = dll
+DOTNETFRAMEWORK_ROOT = C:\Windows\Microsoft.NET\Framework
+ENABLE_OPTIMIZER = 1
+ERRORFORBANNEDAPIS_CMD_LINE = 
+EXCEPTION_CPP = NONE
+EXCEPTION_EXTERN_C = THROW
+EXEBASE = 0x00010000
+EXEENTRY = StartUp
+EXEENTRYOPTION = -entry:StartUp
+EXPORTFILE = 
+FP_NO_HOST_CHECK = NO
+HOMEDRIVE = C:
+HOMEPATH = \Users\Doug
+HOSTCOMPILER = cl
+IMGEBOOT = 1
+IMGNOCALIBRATION = 
+IMGNODEBUGGER = 
+IMGNOKITL = 
+INCLUDEPATH = .;C:\WINCE700\platform\raspi2\src\inc
+INCLUDES = C:\WINCE700\platform\raspi2\src\inc
+LDEFINES = -MERGE:.rdata=.text -merge:.astart=.text /DEBUG /DEBUGTYPE:CV /FIXED:NO -ignore:4001,4070,4078,4086,4089,4096,4099,4108,4229 /STACK:65536,4096 -profile -incremental:no
+LDEFSTACK = /STACK:65536,4096
+LIBRARIAN = ExpandPaths.bat link -lib 
+LINKER = link /LARGEADDRESSAWARE /filealign:0x1000
+LINKER_SUBSYSTEM = "/subsystem:windowsce,7.00"
+LOCALAPPDATA = C:\Users\Doug\AppData\Local
+LOCALE = 0409
+LOGONSERVER = \\THINKPAD420S
+MACHINEOPTION = -machine:thumb
+MAKE = C:\WINCE700\sdk\bin\i386\nmake.exe
+MAKEDIR = C:\WINCE700\platform\raspi2\src\bootloader\sboot
+MAKEFLAGS =  
+MANAGED_ADDMODULES_DEFAULT_DIR = C:\WINCE700\OSDesigns\PiProj2\PiProj2\Wince700\raspi2_ARMV6_Checked\cesysgen\platform\raspi2\target\ARMV6\checked
+MANAGED_CS = 1
+MANAGED_DLL_TARGET_DIRECTORY = C:\WINCE700\OSDesigns\PiProj2\PiProj2\Wince700\raspi2_ARMV6_Checked\cesysgen\platform\raspi2\target\ARMV6\checked
+MANAGED_EXE_TARGET_DIRECTORY = C:\WINCE700\OSDesigns\PiProj2\PiProj2\Wince700\raspi2_ARMV6_Checked\cesysgen\platform\raspi2\target\ARMV6\checked
+MANAGED_FRAMEWORK_DIR = C:\WINCE700\others\dotnetv35\managed
+MANAGED_FRAMEWORK_REF_VERSION_DESKTOP = v2.0.50727
+MANAGED_FRAMEWORK_VERSION_DEVICE = v3.5
+MANAGED_MODULE_TARGET_DIRECTORY = C:\WINCE700\OSDesigns\PiProj2\PiProj2\Wince700\raspi2_ARMV6_Checked\cesysgen\platform\raspi2\target\ARMV6\checked
+MANAGED_REFERENCES_DEFAULT_DIR = C:\WINCE700\OSDesigns\PiProj2\PiProj2\Wince700\raspi2_ARMV6_Checked\cesysgen\platform\raspi2\target\ARMV6\checked
+MANAGED_TARGET_PDB = \SBOOT.pdb
+MANAGED_WINEXE_TARGET_DIRECTORY = C:\WINCE700\OSDesigns\PiProj2\PiProj2\Wince700\raspi2_ARMV6_Checked\cesysgen\platform\raspi2\target\ARMV6\checked
+MC_SOURCEDIR = .
+MESSAGE_COMPILER = mc
+MIDLCOMPILER = midl -nologo
+MIDL_FLAGS =  -no_stamp
+MIDL_OPTIMIZATION = -Oicf
+MIDL_UUIDDIR = .
+MKTYPLIBFLAGS = /win32 /mktyplib203 /no_stamp
+MSBUILD_FLAGS = /consoleloggerparameters:NoSummary
+NOCRTDLL = 1
+NOIMPLICITIMPORT = 1
+NOINCLUDEOBJMAC = 1
+NOLIBC = 1
+NO_WCHAR_T = 1
+NUMBER_OF_PROCESSORS = 4
+OPTIMIZE_FAVOR = SPACE
+OPTIMIZE_FAVOR_FLAG = -Os
+OS = Windows_NT
+PASS0_HEADERDIR = .
+PASS0_SOURCEDIR = .
+PATH = C:\WINCE700\sdk\bin\i386\ARM;C:\WINCE700\sdk\bin\i386;C:\WINCE700\sdk\bin\i386\ARM;C:\WINCE700\public\common\oak\Bin\i386;C:\WINCE700\private\bin\i386;C:\WINCE700\private\bat;C:\WINCE700\public\common\oak\misc;C:\WINCE700\developr\Doug;C:\Program Files\Common Files\Microsoft Shared\Windows Live;C:\Program Files (x86)\Common Files\Microsoft Shared\Windows Live;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Program Files\Intel\WiFi\bin\;C:\Program Files\Common Files\Intel\WirelessCommon\;C:\Program Files\ThinkPad\Bluetooth Software\;C:\Program Files\ThinkPad\Bluetooth Software\syswow64;C:\Program Files\Broadcom\WHL\;C:\Program Files\Broadcom\WHL\syswow64;C:\Program Files\Broadcom\WHL\SysWow64\;C:\Program Files\Broadcom\WHL\SysWow64\syswow64;C:\Program Files (x86)\Common Files\Lenovo;C:\Program Files (x86)\Common Files\Ulead Systems\MPEG;C:\Program Files (x86)\Windows Live\Shared;C:\SWTOOLS\ReadyApps;C:\Program Files (x86)\Intel\Services\IPT\;C:\Program Files (x86)\Symantec\VIP Access Client\;C:\Program Files (x86)\Lenovo\Access Connections\;C:\Program Files (x86)\Microsoft SQL Server\90\Tools\binn\;C:\Program Files\Zune\;c:\util;C:\Program Files\Microsoft Network Monitor 3\;C:\Program Files (x86)\QuickTime\QTSystem\;C:\Windows\Microsoft.NET\Framework\v3.5;C:\Windows\system32;C:\Windows;C:\Program Files (x86)\Microsoft Platform Builder\7.00\cepb\ideVS
+PATHEXT = .COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC
+PBCONFIG = raspi2 ARMV6 Checked
+PBWORKSPACE = C:\WINCE700\OSDesigns\PiProj2\PiProj2\PiProj2.pbxml
+PBWORKSPACEROOT = C:\WINCE700\OSDesigns\PiProj2\PiProj2
+PLATFORMCHIP = 
+POSTBUILD_CONSUMES = eboot
+POSTBUILD_PRODUCES = sboot
+PRECOMPILED_CPP_ONLY_CMD_LINE = 
+PRECOMPILED_C_ONLY_CMD_LINE = 
+PRECOMPILED_GENERATE_CMD_LINE = /Tc
+PROCESSOR_ARCHITECTURE = x86
+PROCESSOR_ARCHITEW6432 = AMD64
+PROCESSOR_IDENTIFIER = Intel64 Family 6 Model 42 Stepping 7, GenuineIntel
+PROCESSOR_LEVEL = 6
+PROCESSOR_REVISION = 2a07
+PROGRAMDATA = C:\ProgramData
+PROGRAMFILES = C:\Program Files (x86)
+PROGRAMW6432 = C:\Program Files
+PROMPT = 
+PSMODULEPATH = C:\Windows\system32\WindowsPowerShell\v1.0\Modules\
+PUBLIC = C:\Users\Public
+QTJAVA = C:\Program Files (x86)\QuickTime\QTSystem\QTJava.zip
+RC = rc
+RCFLAGS = 
+RCOMPILER = rc -r -I. -IC:\WINCE700\platform\raspi2\src\inc -I.\Resource\0409 -DUNDER_CE=700 -DINTERNATIONAL -l 409 -c 1252 -DDEBUG
+RDEFINES =  -DUNDER_CE=700 -DINTERNATIONAL -l 409 -c 1252 -DDEBUG
+READYAPPS = C:\SWTOOLS\ReadyApps
+RELEASETYPE = PLATFORM
+RENUMBERICONIDS_CMD = RenumberIconIds
+RES2RES = res2res
+RESGEN = "\Microsoft SDKs\Windows\v6.0A\bin\resgen.exe"
+RESGEN_PATH = \Microsoft SDKs\Windows\v6.0A\bin
+RESX_RESOURCE_TARGET_PATH = obj\ARMV6\checked
+RTTI = NO
+RTTI_CMD_LINE = /GR-
+SAFESEH = 
+SESSIONNAME = Console
+SG_OUTPUT_OAKLIB = C:\WINCE700\OSDesigns\PiProj2\PiProj2\Wince700\raspi2_ARMV6_Checked\cesysgen\oak\lib\ARMV6\checked
+SG_OUTPUT_OAKTGT = C:\WINCE700\OSDesigns\PiProj2\PiProj2\Wince700\raspi2_ARMV6_Checked\cesysgen\oak\target\ARMV6\checked
+SG_OUTPUT_OAKTGTMGD = C:\WINCE700\OSDesigns\PiProj2\PiProj2\Wince700\raspi2_ARMV6_Checked\cesysgen\oak\target\managed
+SG_OUTPUT_OAK_MANAGED = C:\WINCE700\OSDesigns\PiProj2\PiProj2\Wince700\raspi2_ARMV6_Checked\cesysgen\oak\target\managed\checked
+SG_OUTPUT_ROOT = C:\WINCE700\OSDesigns\PiProj2\PiProj2\Wince700\raspi2_ARMV6_Checked\cesysgen
+SG_OUTPUT_SDKLIB = C:\WINCE700\OSDesigns\PiProj2\PiProj2\Wince700\raspi2_ARMV6_Checked\cesysgen\sdk\lib\ARMV6\checked
+SG_OUTPUT_SDKTGTMGD = C:\WINCE700\OSDesigns\PiProj2\PiProj2\Wince700\raspi2_ARMV6_Checked\cesysgen\sdk\target\managed
+SG_OUTPUT_SDK_MANAGED = C:\WINCE700\OSDesigns\PiProj2\PiProj2\Wince700\raspi2_ARMV6_Checked\cesysgen\sdk\target\managed\checked
+SN = "\Microsoft SDKs\Windows\v6.0A\bin\sn.exe"
+SN_PATH = \Microsoft SDKs\Windows\v6.0A\bin
+SOURCELIBS_DELIMITED = **
+SOURCELIBS_NOBATCH =  
+SOURCELIBS_NOBATCH_DELIMITED = **
+SOURCES = main.c debug.c startup.s
+SUPPORT_DEFAULT_INT = 1
+SWSHARE = C:\SWSHARE
+SYSGEN_CERDISP = 
+SYSGEN_CMD = 
+SYSGEN_TOOLHELP = 
+SYSTEMDRIVE = C:
+SYSTEMROOT = C:\Windows
+S_ATL_LIBS = C:\WINCE700\others\atl9\lib\ARMV6\atls.lib C:\WINCE700\others\atl9\lib\ARMV6\atlosapis.lib C:\WINCE700\others\cecrt\lib\ARMV6\altcecrt.lib
+S_ATL_LIBSD = C:\WINCE700\others\atl9\lib\ARMV6\atlsd.lib C:\WINCE700\others\atl9\lib\ARMV6\atlosapis.lib C:\WINCE700\others\cecrt\lib\ARMV6\altcecrtd.lib
+TARGETEXEFILES = C:\WINCE700\OSDesigns\PiProj2\PiProj2\Wince700\raspi2_ARMV6_Checked\cesysgen\platform\raspi2\target\ARMV6\checked\SBOOT.exe
+TARGETLIBS =  C:\WINCE700\OSDesigns\PiProj2\PiProj2\Wince700\raspi2_ARMV6_Checked\cesysgen\platform\raspi2\lib\ARMV6\checked\VidConDebug.lib C:\WINCE700\OSDesigns\PiProj2\PiProj2\Wince700\raspi2_ARMV6_Checked\cesysgen\platcomm\raspi2\lib\ARMV6\checked\oal_blcommon.lib C:\WINCE700\OSDesigns\PiProj2\PiProj2\Wince700\raspi2_ARMV6_Checked\cesysgen\platcomm\raspi2\lib\ARMV6\checked\oal_blserial.lib C:\WINCE700\OSDesigns\PiProj2\PiProj2\Wince700\raspi2_ARMV6_Checked\cesysgen\platcomm\raspi2\lib\ARMV6\checked\oal_blnk.lib C:\WINCE700\OSDesigns\PiProj2\PiProj2\Wince700\raspi2_ARMV6_Checked\cesysgen\platcomm\raspi2\lib\ARMV6\checked\eboot.lib C:\WINCE700\OSDesigns\PiProj2\PiProj2\Wince700\raspi2_ARMV6_Checked\cesysgen\oak\lib\ARMV6\checked\gsnull.lib C:\WINCE700\OSDesigns\PiProj2\PiProj2\Wince700\raspi2_ARMV6_Checked\cesysgen\oak\lib\ARMV6\checked\fulllibc.lib
+TARGETNAME = SBOOT
+TARGETOBJFILES =  
+TARGETTHREADMODEL = ST
+TARGETTYPE = PROGRAM
+TARGET_PDB_NAME = C:\WINCE700\OSDesigns\PiProj2\PiProj2\Wince700\raspi2_ARMV6_Checked\cesysgen\platform\raspi2\target\ARMV6\checked\SBOOT.pdb
+TEMP = c:\temp\bld_96802
+TEMP_TARGETLIBFILES = c:\temp\bld_96802\SBOOT.lib
+TGTCPUDEFINES = -DARM -DARMV6 -D_ARM_
+TGTCPUISANAME = ARMV6
+TMP = c:\temp\bld_96802
+TSMPATH = C:\Program Files\ThinkPad\UltraNav Utility
+TVT = C:\Program Files (x86)\Lenovo
+TVTCOMMON = C:\Program Files (x86)\Common Files\Lenovo
+URT_TARGET = CE
+URT_VER = 3.5
+USERDOMAIN = Thinkpad420s
+USERNAME = Doug
+USERPROFILE = C:\Users\Doug
+USING_PB_WORKSPACE_ENVIRONMENT = 1
+VCBUILD_LOCATION = C:\Program Files (x86)\Microsoft Visual Studio 9.0\VC
+VISUALSTUDIODIR = C:\Users\Doug\Documents\Visual Studio 2008
+VS100COMNTOOLS = c:\Program Files (x86)\Microsoft Visual Studio 10.0\Common7\Tools\
+VS90COMNTOOLS = C:\Program Files (x86)\Microsoft Visual Studio 9.0\Common7\Tools\
+WARNLEVEL_CMD_LINE = -W3
+WINCECOVER = 1
+WINCECPU = 
+WINCEDEBUG = checked
+WINCEDEBUG_COMPILE = debug
+WINCEMAP = 1
+WINCEOEM = 
+WINCEREL = 
+WINCETREE = CEBASE
+WINCEVSCRT_DEBUG_SUFFIX = 
+WINDIR = C:\Windows
+WINDOWS_TRACING_FLAGS = 3
+WINDOWS_TRACING_LOGFILE = C:\BVTBin\Tests\installpackage\csilogfile.log
+WPP_TARGETS = 
+XNAGSSHARED = C:\Program Files (x86)\Common Files\Microsoft Shared\XNA\
+XNAGSV4 = C:\Program Files (x86)\Microsoft XNA\XNA Game Studio\v4.0\
+_BUILDERR = : ERROR:
+_BUILDMSG = : Message:
+_BUILDWRN = : Warning:
+_CDTMP = -DTHUMBSUPPORT -D_CRT_SECURE_NO_DEPRECATE -D_USE_32BIT_TIME_T -DUNICODE -D_UNICODE -DUNDER_CE=700 -D_WIN32_WCE=0x700 -DWIN32 -DSTRICT -DARM -DARMV6 -D_ARM_ -D_MIDL_USE_GUIDDEF_ -DDEBUG=1 -DCOREDLL -DBUILDING_BOOTLOADER -DINTERNATIONAL -DINTLMSG_CODEPAGE=1252 DUMMY
+_CE7_ROOT = c:\WINCE700
+_COMMONDDKROOT = C:\WINCE700\OSDesigns\PiProj2\PiProj2\Wince700\raspi2_ARMV6_Checked\cesysgen\ddk
+_COMMONOAKROOT = C:\WINCE700\OSDesigns\PiProj2\PiProj2\Wince700\raspi2_ARMV6_Checked\cesysgen\oak
+_COMMONPUBROOT = C:\WINCE700\OSDesigns\PiProj2\PiProj2\Wince700\raspi2_ARMV6_Checked\cesysgen
+_COMMONSDKROOT = C:\WINCE700\OSDesigns\PiProj2\PiProj2\Wince700\raspi2_ARMV6_Checked\cesysgen\sdk
+_CPUDEPPATH = ARMV6\checked
+_CPUINDPATH = ARMV6\checked
+_CURSLMTREE = CEBASE
+_DEPTREES = winceos dcom gdiex ie7 servers shellsdk cellcore netcfv35 sqlcompact ossvcs shell wceshellfe wceappsfe directx msf rdp shellw datasync mediaapps ostest apps CEBASE
+_FLATRELEASEDIR = C:\WINCE700\OSDesigns\PiProj2\PiProj2\RelDir\raspi2_ARMV6_Checked
+_HOSTCPUTYPE = i386
+_ISVINCPATH = 
+_MAJORVERSION = 7
+_MAKEENVROOT = C:\WINCE700\public\common\oak\misc
+_MANAGED_FRAMEWORK_DIR = C:\WINCE700\others\dotnetv35\managed
+_MANAGED_FRAMEWORK_DIR_CE = C:\WINCE700\others\dotnetv35\managed
+_MANAGED_FRAMEWORK_DIR_DESKTOP = C:\Windows\Microsoft.NET\Framework\v2.0.50727
+_MINORVERSION = 00
+_NMAKE_VER = 9.00.30729.199
+_OBJDIR = obj\ARMV6\checked
+_OEMINCPATH = 
+_OSDESIGNDDKROOT = C:\WINCE700\OSDesigns\PiProj2\PiProj2\Wince700\raspi2_ARMV6_Checked\ddk
+_OSDESIGNOAKROOT = C:\WINCE700\OSDesigns\PiProj2\PiProj2\Wince700\raspi2_ARMV6_Checked\oak
+_OSDESIGNROOT = C:\WINCE700\OSDesigns\PiProj2\PiProj2
+_OSDESIGNSDKROOT = C:\WINCE700\OSDesigns\PiProj2\PiProj2\Wince700\raspi2_ARMV6_Checked\sdk
+_PB_INSTALL_ROOT = C:\PROGRA~2\MIFAB2~1\7.00
+_PLATCOMMONLIB = C:\WINCE700\OSDesigns\PiProj2\PiProj2\Wince700\raspi2_ARMV6_Checked\cesysgen\platcomm\raspi2\lib
+_PLATFORMDRIVE = C:
+_PLATFORMROOT = C:\WINCE700\platform
+_PLATLIB = C:\WINCE700\OSDesigns\PiProj2\PiProj2\Wince700\raspi2_ARMV6_Checked\cesysgen\platform\raspi2\lib
+_PREWINCEPATH = C:\Program Files\Common Files\Microsoft Shared\Windows Live;C:\Program Files (x86)\Common Files\Microsoft Shared\Windows Live;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Program Files\Intel\WiFi\bin\;C:\Program Files\Common Files\Intel\WirelessCommon\;C:\Program Files\ThinkPad\Bluetooth Software\;C:\Program Files\ThinkPad\Bluetooth Software\syswow64;C:\Program Files\Broadcom\WHL\;C:\Program Files\Broadcom\WHL\syswow64;C:\Program Files\Broadcom\WHL\SysWow64\;C:\Program Files\Broadcom\WHL\SysWow64\syswow64;C:\Program Files (x86)\Common Files\Lenovo;C:\Program Files (x86)\Common Files\Ulead Systems\MPEG;C:\Program Files (x86)\Windows Live\Shared;C:\SWTOOLS\ReadyApps;C:\Program Files (x86)\Intel\Services\IPT\;C:\Program Files (x86)\Symantec\VIP Access Client\;C:\Program Files (x86)\Lenovo\Access Connections\;C:\Program Files (x86)\Microsoft SQL Server\90\Tools\binn\;C:\Program Files\Zune\;c:\util;C:\Program Files\Microsoft Network Monitor 3\;C:\Program Files (x86)\QuickTime\QTSystem\
+_PRIVATEDRIVE = C:
+_PRIVATEROOT = C:\WINCE700\private
+_PROJECTDDKROOT = C:\WINCE700\public\CEBASE\ddk
+_PROJECTOAKROOT = C:\WINCE700\public\CEBASE\oak
+_PROJECTROOT = C:\WINCE700\public\CEBASE
+_PROJECTSDKROOT = C:\WINCE700\public\CEBASE\sdk
+_PROJPUBLICROOT = C:\WINCE700\OSDesigns\PiProj2\PiProj2\WINCE700\PUBLIC
+_PUBLICDRIVE = C:
+_PUBLICROOT = C:\WINCE700\public
+_RELEASEDIR = C:\WINCE700\OSDesigns\PiProj2\PiProj2\Wince700\raspi2_ARMV6_Checked\cesysgen\platform\raspi2\target\ARMV6\checked
+_RELEASELIBDIR = C:\WINCE700\OSDesigns\PiProj2\PiProj2\Wince700\raspi2_ARMV6_Checked\cesysgen\platform\raspi2\lib\ARMV6\checked
+_SDKDRIVE = C:
+_SDKROOT = C:\WINCE700\sdk
+_SRCDIR = ARM
+_SYSGENDDKROOT = C:\WINCE700\OSDesigns\PiProj2\PiProj2\Wince700\raspi2_ARMV6_Checked\cesysgen\ddk
+_SYSGENOAKROOT = C:\WINCE700\OSDesigns\PiProj2\PiProj2\Wince700\raspi2_ARMV6_Checked\cesysgen\oak
+_SYSGENSDKROOT = C:\WINCE700\OSDesigns\PiProj2\PiProj2\Wince700\raspi2_ARMV6_Checked\cesysgen\sdk
+_TARGETPLATROOT = C:\WINCE700\platform\raspi2
+_TGTCPU = ARMV6
+_TGTCPUFAMILY = ARM
+_TGTCPUISA = V6
+_TGTOS = CE
+_TGTPLAT = raspi2
+_TGTPROJ = CEBASE
+_TLTMP = 
+_TOOLSSDKDRIVE = C:
+_TOOLSSDKROOT = C:\WINCE700\tools\public\ext
+_WINCECALLED = 1
+_WINCEDRIVE = C:
+_WINCEOSVER = 700
+_WINCEROOT = C:\WINCE700
+__COPYCMD = copylink /S:a /D:f /E:a /R:n
+__CPUDIR = ARMV6\checked
+__PROJROOT = C:\WINCE700\OSDesigns\PiProj2\PiProj2\Wince700\raspi2_ARMV6_Checked\cesysgen

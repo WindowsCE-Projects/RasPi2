@@ -1,0 +1,5 @@
+OBJECTS=\
+    obj\ARMV6\checked\main.obj\
+    obj\ARMV6\checked\debug.obj\
+    obj\ARMV6\checked\startup.obj
+

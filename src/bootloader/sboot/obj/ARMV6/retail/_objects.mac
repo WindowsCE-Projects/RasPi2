@@ -1,0 +1,5 @@
+OBJECTS=\
+    obj\ARMV6\retail\main.obj\
+    obj\ARMV6\retail\debug.obj\
+    obj\ARMV6\retail\startup.obj
+
