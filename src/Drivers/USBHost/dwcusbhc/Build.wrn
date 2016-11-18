@@ -1,0 +1,11 @@
+BUILD: [Thrd:Sequence:Type  ] Message
+BUILD: [00:0000000006:WARNS ] Warning(s) in directory "C:\WINCE700\platform\raspi2\src\drivers\USBHost\dwcusbhc\".
+BUILD: [00:0000000007:WARNS ] cert is not a subdirectory of C:\WINCE700\platform\raspi2\src\drivers\USBHost\dwcusbhc\.
+BUILD: [01:0000000045:WARNN ] Warning(s) in directory "C:\WINCE700\platform\raspi2\src\drivers\USBHost\dwcusbhc\Prod\".
+BUILD: [01:0000000046:WARNN ] c:\wince700\platform\raspi2\src\drivers\usbhost\dwcusbhc\statemachine.cpp(473) : warning C4100: 'fFromPM' : unreferenced formal parameter
+BUILD: [01:0000000047:WARNN ] c:\wince700\platform\raspi2\src\drivers\usbhost\dwcusbhc\statemachine.cpp(473) : warning C4100: 'fEnable' : unreferenced formal parameter
+BUILD: [01:0000000048:WARNN ] c:\wince700\platform\raspi2\src\drivers\usbhost\dwcusbhc\statemachine.cpp(797) : warning C4101: 'p' : unreferenced local variable
+BUILD: [01:0000000049:WARNN ] c:\wince700\platform\raspi2\src\drivers\usbhost\dwcusbhc\statemachine.cpp(1073) : warning C4101: 'dw' : unreferenced local variable
+BUILD: [01:0000000050:WARNN ] c:\wince700\platform\raspi2\src\drivers\usbhost\dwcusbhc\statemachine.cpp(1491) : warning C4102: 'exitloop' : unreferenced label
+BUILD: [01:0000000051:WARNN ] c:\wince700\platform\raspi2\src\drivers\usbhost\dwcusbhc\statemachine.cpp(1418) : warning C4101: 'NxtLinkPtr' : unreferenced local variable
+BUILD: [01:0000000052:WARNN ] c:\wince700\platform\raspi2\src\drivers\usbhost\dwcusbhc\statemachine.cpp(1381) : warning C4101: 'dw' : unreferenced local variable
